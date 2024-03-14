@@ -1,0 +1,21 @@
+import React from 'react'
+
+const Main = () => {
+  return (
+    <div>
+       <div className='main'>
+  <div className='left'>
+<h1>Flight withus</h1>
+<p>Book flight tickets with Qatar Airways, proud winner of Skytrax's<br></br> Airline of the Year 2022, to more than 150 destinations. Special fares, earn Avios & more.</p>
+<button className='b1'>Book Now</button>
+  </div>
+  <div className='right'>
+<img src='https://img.freepik.com/free-vector/travel-time-typography-design-with-airplane_1308-88584.jpg?size=338&ext=jpg&ga=GA1.1.1412446893.1705104000&semt=ais'/>
+  </div>
+
+   </div>
+    </div>
+  )
+}
+
+export default Main
